@@ -2,12 +2,14 @@ import React from "react";
 import Homepage from "./Homepage";
 import Stack from "react-bootstrap/Stack";
 import Button from "react-bootstrap/Button";
+import Footer from "./Footer";
 
 export default function Content() {
   return (
     <>
       <div>
         <Homepage />
+        <Footer />
         <Stack gap={3}>
           <div className="p-2">First item</div>
           <div className="p-2">Second item</div>
